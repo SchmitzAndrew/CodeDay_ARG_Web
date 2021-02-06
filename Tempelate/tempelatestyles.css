@@ -1,6 +1,10 @@
 h1{
     text-align: center;
     font-size: 45px;
+    font-weight: 900;
+    background: -webkit-linear-gradient(180deg, #3e9ea8, #51c9c3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 p{
@@ -15,10 +19,10 @@ body::before {
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     z-index: -1;
 }
 
@@ -42,10 +46,23 @@ body::before {
 }
 
 .footer{
-    position: absolute;
+    position: fixed;
     bottom: 1px;
     width: 100%;
     height: 60px;
     line-height: 60px;
     text-align: center;
+    font-size: 16px;
+}
+
+a:link {
+    color: lightseagreen;
+}
+
+a:visited {
+    color: darkgreen;
+}
+
+a:hover {
+    color: darkblue;
 }
